@@ -19,8 +19,9 @@ def binary_search(arr,target):
     return -1
 
 
-numbers = [10,20,30,40,50]
-target = 20
+numbers = sorted(list(map(int, input("Please enter the numbers: ").split())))
+
+target = int(input("Please enter a number: "))
 
 result = binary_search(numbers , target)
 
